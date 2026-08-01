@@ -1,5 +1,5 @@
 {
-  "name": "goodbotbad",
+  "name": "goodbotbadbot",
   "description": "The MCP server behind goodbotbad.bot, where the crowd rules AI transcripts good bot or bad bot.",
   "owner": {
     "name": "goodbotbad.bot",
@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "goodbotbad",
-      "source": "./goodbotbad",
+      "name": "goodbotbadbot",
+      "source": "./goodbotbadbot",
       "description": "Submit AI transcripts to goodbotbad.bot from inside the session they happened in, and let the crowd rule good bot or bad bot."
     }
   ]

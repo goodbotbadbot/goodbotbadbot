@@ -1,11 +1,16 @@
 {
-  "name": "goodbotbad",
+  "name": "goodbotbadbot",
   "description": "Submit AI transcripts to goodbotbad.bot from the session they happened in. Nothing publishes without a human confirming a draft.",
   "author": {
     "name": "goodbotbad.bot",
     "url": "https://goodbotbad.bot"
   },
   "homepage": "https://goodbotbad.bot",
-  "repository": "https://github.com/ngineer420/goodbotbad-plugin",
-  "keywords": ["mcp", "transcripts", "ai-evaluation", "goodbotbad"]
+  "repository": "https://github.com/ngineer420/goodbotbadbot-plugin",
+  "keywords": [
+    "mcp",
+    "transcripts",
+    "ai-evaluation",
+    "goodbotbadbot"
+  ]
 }

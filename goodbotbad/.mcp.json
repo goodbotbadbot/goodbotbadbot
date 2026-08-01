@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "goodbotbadbot": {
+      "type": "http",
+      "url": "https://goodbotbad.bot/mcp"
+    }
+  }
+}

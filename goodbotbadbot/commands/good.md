@@ -40,16 +40,17 @@ reason the archive is worth reading, so a note a machine wrote is the one thing 
 will not publish. The draft page asks for it, in their own words, and will not let the
 draft go to a moderator without one.
 
-**Never end this turn with nothing on screen.** Whether or not you reached for a tool, and
-whether or not you are certain it rendered, print this and nothing after it:
+**Do not end this turn without asking.** Call the tool or print the block below — one of the
+two, in this turn. The observed failure is neither: the turn ends, nothing is on screen, and
+they are left at an empty prompt with no idea what you are waiting for. Asking is the step;
+the tool is only how it looks.
+
+With no such tool, print this and nothing after it:
 
 > **Title** — one line, under 120 characters. Suggestions: <your two or three>
 >
 > Reply with one and I'll submit it.
 
-Both have happened and both are failures: ending the turn silently leaves them at an empty
-prompt with no idea what you are waiting for, and a picker that did not draw leaves the same
-blank. The text costs one line and works in every client.
 
 Skip this step only if they already gave you a title when they ran the command.
 

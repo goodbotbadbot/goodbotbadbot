@@ -32,20 +32,24 @@ is the all-clear.
 it, and choosing between three beats facing a blank line. Offer two or three, each drawn
 from what actually happened, and make writing their own the obvious alternative. If your
 client has a tool for asking a structured question with choices — `AskUserQuestion` in
-Claude Code, whatever your client calls its equivalent — call it here, with your suggestions
-as the options. Naming the tool because asking you to judge whether you "can" ask a
-structured question sends you to the fallback below while holding the tool that does it.
+Claude Code, whatever your client calls its equivalent — it is a nicer way to show them, and
+its options are your two or three titles plus writing their own.
 
 **Do not ask for a note, and do not write one.** It is the human layer and the entire
 reason the archive is worth reading, so a note a machine wrote is the one thing this site
 will not publish. The draft page asks for it, in their own words, and will not let the
 draft go to a moderator without one.
 
-With no such tool, end your turn with exactly this and nothing after it:
+**Never end this turn with nothing on screen.** Whether or not you reached for a tool, and
+whether or not you are certain it rendered, print this and nothing after it:
 
 > **Title** — one line, under 120 characters. Suggestions: <your two or three>
 >
 > Reply with one and I'll submit it.
+
+Both have happened and both are failures: ending the turn silently leaves them at an empty
+prompt with no idea what you are waiting for, and a picker that did not draw leaves the same
+blank. The text costs one line and works in every client.
 
 Skip this step only if they already gave you a title when they ran the command.
 

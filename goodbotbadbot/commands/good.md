@@ -28,29 +28,28 @@ published; none of those are true at any point in this command.
 paths, no credentials — is as long as a real warning and carries none of the signal. Silence
 is the all-clear.
 
-**2 · Propose a title, then stop and wait.** It describes the exchange rather than judging
-it, and choosing between three beats facing a blank line. Offer two or three, each drawn
-from what actually happened, and make writing their own the obvious alternative. If your
-client has a tool for asking a structured question with choices — `AskUserQuestion` in
-Claude Code, whatever your client calls its equivalent — it is a nicer way to show them, and
-its options are your two or three titles plus writing their own.
+**2 · Ask which title to use — in this turn, before you stop.** A title describes the
+exchange rather than judging it, and choosing between three beats facing a blank line. Offer
+two or three drawn from what actually happened, and make writing their own the obvious
+alternative.
 
-**Do not ask for a note, and do not write one.** It is the human layer and the entire
-reason the archive is worth reading, so a note a machine wrote is the one thing this site
-will not publish. The draft page asks for it, in their own words, and will not let the
-draft go to a moderator without one.
-
-**Do not end this turn without asking.** Call the tool or print the block below — one of the
-two, in this turn. The observed failure is neither: the turn ends, nothing is on screen, and
-they are left at an empty prompt with no idea what you are waiting for. Asking is the step;
-the tool is only how it looks.
-
-With no such tool, print this and nothing after it:
+If your client has a tool for asking a structured question with choices — `AskUserQuestion`
+in Claude Code, whatever your client calls its equivalent — use it, with your two or three
+titles as the options and writing their own alongside them. With no such tool, end the turn
+with exactly this and nothing after it:
 
 > **Title** — one line, under 120 characters. Suggestions: <your two or three>
 >
 > Reply with one and I'll submit it.
 
+**The observed failure is ending the turn having asked nothing.** A summary of what you are
+about to submit is not a question, and it leaves somebody looking at an empty prompt with no
+idea whose move it is. Repeating the exchange back is optional; asking is not.
+
+**Do not ask for a note, and do not write one.** It is the human layer and the entire
+reason the archive is worth reading, so a note a machine wrote is the one thing this site
+will not publish. The draft page asks for it, in their own words, and will not let the
+draft go to a moderator without one.
 
 Skip this step only if they already gave you a title when they ran the command.
 

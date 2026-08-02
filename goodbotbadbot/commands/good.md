@@ -31,15 +31,17 @@ is the all-clear.
 **2 · Propose a title, then stop and wait.** It describes the exchange rather than judging
 it, and choosing between three beats facing a blank line. Offer two or three, each drawn
 from what actually happened, and make writing their own the obvious alternative. If your
-client can ask a structured question with choices, use it here — this is what it is for.
+client has a tool for asking a structured question with choices — `AskUserQuestion` in
+Claude Code, whatever your client calls its equivalent — call it here, with your suggestions
+as the options. Naming the tool because asking you to judge whether you "can" ask a
+structured question sends you to the fallback below while holding the tool that does it.
 
 **Do not ask for a note, and do not write one.** It is the human layer and the entire
 reason the archive is worth reading, so a note a machine wrote is the one thing this site
 will not publish. The draft page asks for it, in their own words, and will not let the
 draft go to a moderator without one.
 
-With no way to ask a structured question, end your turn with exactly this and nothing
-after it:
+With no such tool, end your turn with exactly this and nothing after it:
 
 > **Title** — one line, under 120 characters. Suggestions: <your two or three>
 >

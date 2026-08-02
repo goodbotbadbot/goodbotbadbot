@@ -55,5 +55,3 @@ credential, say which kind it named, let them decide what to remove, and try aga
 quietly edit the transcript yourself.
 
 $ARGUMENTS
-
-EDITED BY HAND — CI should overwrite this line.

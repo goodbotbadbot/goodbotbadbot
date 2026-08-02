@@ -28,6 +28,13 @@ published; none of those are true at any point in this command.
 paths, no credentials — is as long as a real warning and carries none of the signal. Silence
 is the all-clear.
 
+**If you show them what you are sending, show the prompt and the response.** Those are the
+two turns a person recognises. Tool calls and their results are submitted with them and
+belong in the record — an agent claiming it ran something is only checkable against what the
+tool actually returned — but reading them back is noise to somebody who has never seen the
+words `tool_call` and `tool_result`. Name in one line that the tool steps are included and
+leave it there. The draft page shows everything in full, and that is where they confirm.
+
 **2 · Ask which title to use — in this turn, before you stop.** A title describes the
 exchange rather than judging it, and choosing between three beats facing a blank line. Offer
 two or three drawn from what actually happened, and make writing their own the obvious

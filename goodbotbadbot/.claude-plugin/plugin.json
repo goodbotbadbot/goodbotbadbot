@@ -6,7 +6,8 @@
     "url": "https://goodbotbad.bot"
   },
   "homepage": "https://goodbotbad.bot",
-  "repository": "https://github.com/ngineer420/goodbotbadbot-plugin",
+  "repository": "https://github.com/goodbotbadbot/plugin",
+  "license": "Apache-2.0",
   "keywords": [
     "mcp",
     "transcripts",

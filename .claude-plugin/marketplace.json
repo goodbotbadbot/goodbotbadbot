@@ -9,7 +9,7 @@
     {
       "name": "goodbotbadbot",
       "source": "./goodbotbadbot",
-      "description": "Submit AI transcripts to goodbotbad.bot from inside the session they happened in, and let the crowd rule good bot or bad bot."
+      "description": "Submit AI transcripts to goodbotbad.bot from the session they happened in. Nothing publishes without a human confirming a draft."
     }
   ]
 }

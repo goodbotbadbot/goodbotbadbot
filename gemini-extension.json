@@ -4,7 +4,10 @@
   "description": "Submit AI transcripts to goodbotbad.bot from the session they happened in. Nothing publishes without a human confirming a draft.",
   "mcpServers": {
     "goodbotbadbot": {
-      "httpUrl": "https://goodbotbad.bot/mcp"
+      "httpUrl": "https://goodbotbad.bot/mcp",
+      "headers": {
+        "X-Goodbotbadbot-Surface": "plugin"
+      }
     }
   }
 }

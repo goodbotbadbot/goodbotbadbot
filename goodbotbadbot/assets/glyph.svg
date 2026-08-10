@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"
+     role="img" aria-label="goodbotbad.bot">
+  <title>goodbotbad.bot</title>
+  <!-- Construction is prescriptive: see docs/03-visual-identity.md 04.
+       The halves are NEVER two adjacent paths sharing an edge. A solid rect in
+       the bad colour establishes the geometry, the good half is laid over it and
+       bled 4 units past every edge, and one clip path trims the result. -->
+  <style>
+    .bad  { fill: var(--gbb-bad,  #DC3F26); }
+    .good { fill: var(--gbb-good, #0E9E93); }
+    .eye  { fill: var(--gbb-eye,  #F4F6F6); stroke: var(--gbb-eye, #F4F6F6); }
+    @media (prefers-color-scheme: dark) {
+      .bad  { fill: var(--gbb-bad,  #FF6A4D); }
+      .good { fill: var(--gbb-good, #2ED3C4); }
+      .eye  { fill: var(--gbb-eye,  #0E1113); stroke: var(--gbb-eye, #0E1113); }
+    }
+  </style>
+  <defs>
+    <clipPath id="gbb-clip">
+      <rect x="0" y="0" width="100" height="100" rx="14" ry="14"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#gbb-clip)">
+    <rect class="bad" x="0" y="0" width="100" height="100"/>
+    <path class="good" d="M-4 -4 L50 -4 L50 104 L-4 104 Z"/>
+    <circle class="eye" cx="27" cy="46" r="8" stroke="none"/>
+    <path class="eye" d="M66 38 L82 54 M82 38 L66 54" fill="none"
+          stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

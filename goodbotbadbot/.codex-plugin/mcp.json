@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "goodbotbadbot": {
+      "type": "http",
+      "url": "https://goodbotbad.bot/mcp",
+      "oauth_resource": "https://goodbotbad.bot/mcp",
+      "http_headers": {
+        "X-Goodbotbadbot-Surface": "plugin"
+      }
+    }
+  }
+}

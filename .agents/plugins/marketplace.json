@@ -1,0 +1,20 @@
+{
+  "name": "goodbotbadbot",
+  "interface": {
+    "displayName": "goodbotbad.bot"
+  },
+  "plugins": [
+    {
+      "name": "goodbotbadbot",
+      "source": {
+        "source": "local",
+        "path": "./goodbotbadbot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

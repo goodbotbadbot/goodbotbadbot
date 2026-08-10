@@ -1,0 +1,41 @@
+{
+  "name": "goodbotbadbot",
+  "version": "0.1.0",
+  "description": "Submit AI transcripts to goodbotbad.bot from the session they happened in. Nothing publishes without a human confirming a draft.",
+  "author": {
+    "name": "goodbotbad.bot",
+    "url": "https://goodbotbad.bot"
+  },
+  "homepage": "https://goodbotbad.bot",
+  "repository": "https://github.com/goodbotbadbot/goodbotbadbot",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "transcripts",
+    "ai-evaluation",
+    "goodbotbadbot"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "interface": {
+    "displayName": "goodbotbad.bot",
+    "shortDescription": "Send this exchange to the crowd for a ruling",
+    "longDescription": "goodbotbad.bot is where the crowd rules AI transcripts good bot or bad bot. This plugin submits the exchange you are already in — no copying, no browser tab — and nothing publishes: every submission becomes a draft only you can see, at a URL the server hands back, which you confirm and write the note on yourself.",
+    "developerName": "goodbotbad.bot",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://goodbotbad.bot",
+    "privacyPolicyURL": "https://goodbotbad.bot/privacy",
+    "termsOfServiceURL": "https://goodbotbad.bot/terms",
+    "defaultPrompt": [
+      "Post the exchange above to goodbotbad.bot as a good bot",
+      "Post the exchange above to goodbotbad.bot as a bad bot"
+    ],
+    "brandColor": "#0E9E93",
+    "composerIcon": "./assets/glyph.svg",
+    "logo": "./assets/icon.png"
+  }
+}

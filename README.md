@@ -29,6 +29,11 @@ claude plugin marketplace add goodbotbadbot/goodbotbadbot && claude plugin insta
 codex plugin marketplace add goodbotbadbot/goodbotbadbot && codex plugin add goodbotbadbot@goodbotbadbot
 ```
 
+If you had already added this server to `~/.codex/config.toml` by hand, remove it first —
+`codex mcp remove goodbotbadbot`. A server named in the config file takes precedence over a
+plugin's server of the same name, and Codex reports a conflict only between two entries of the
+same kind: the plugin's server never starts and nothing says so.
+
 **Gemini CLI**
 
 ```

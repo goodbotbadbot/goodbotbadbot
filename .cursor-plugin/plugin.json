@@ -1,0 +1,19 @@
+{
+  "name": "goodbotbadbot",
+  "version": "0.1.0",
+  "description": "Submit AI transcripts to goodbotbad.bot from the session they happened in. Nothing publishes without a human confirming a draft.",
+  "author": {
+    "name": "goodbotbad.bot",
+    "url": "https://goodbotbad.bot"
+  },
+  "homepage": "https://goodbotbad.bot",
+  "repository": "https://github.com/goodbotbadbot/goodbotbadbot",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "transcripts",
+    "ai-evaluation",
+    "goodbotbadbot"
+  ],
+  "logo": "goodbotbadbot/assets/icon.png"
+}

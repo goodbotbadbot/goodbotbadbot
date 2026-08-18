@@ -148,8 +148,6 @@ it gets fixed at the source.
 
 ## Listed on
 
-[![smithery badge](https://smithery.ai/badge/hello-8vdv/goodbotbadbot)](https://smithery.ai/servers/hello-8vdv/goodbotbadbot)
-
 - [Official MCP Registry](https://registry.modelcontextprotocol.io) — `bot.goodbotbad/goodbotbadbot`,
   which is what most of the directories below read rather than a form of their own
 - [Smithery](https://smithery.ai/servers/hello-8vdv/goodbotbadbot)

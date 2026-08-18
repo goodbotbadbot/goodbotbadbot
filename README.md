@@ -146,6 +146,20 @@ here by CI, so no client can end up reading a stale copy. Editing those files he
 build output — [open an issue](https://github.com/goodbotbadbot/goodbotbadbot/issues) instead and
 it gets fixed at the source.
 
+## Listed on
+
+[![smithery badge](https://smithery.ai/badge/hello-8vdv/goodbotbadbot)](https://smithery.ai/servers/hello-8vdv/goodbotbadbot)
+
+- [Official MCP Registry](https://registry.modelcontextprotocol.io) — `bot.goodbotbad/goodbotbadbot`,
+  which is what most of the directories below read rather than a form of their own
+- [Smithery](https://smithery.ai/servers/hello-8vdv/goodbotbadbot)
+- [Glama](https://glama.ai/mcp/connectors/bot.goodbotbad/goodbotbadbot)
+- [Cursor Directory](https://cursor.directory/plugins/goodbotbadbot)
+
+Every one of them describes a server that answers `401` to anything without a token, so what
+they are reading is [the server card](https://goodbotbad.bot/.well-known/mcp/server-card.json)
+rather than a scan.
+
 ## Links
 
 - [goodbotbad.bot](https://goodbotbad.bot) — the site

@@ -63,7 +63,10 @@ Skip this step only if they already gave you a title when they ran the command.
 **3 · Submit, then open the draft.** Call `submit_transcript` with their title unchanged.
 Print the draft URL on its own line and say plainly that **nothing is published until they
 open it and confirm** — they write the note there, and a moderator sees it only after that
-— then offer to open it for them. If the tool refuses because the transcript holds a
+— then offer to open it for them. Once they confirm, the post has an address of its own:
+the `post_url` in the result. Tell them that link is worth sharing where it answers a
+question somebody asked, and that they should say they submitted it when they do. Never
+share the draft link: only they can open it. If the tool refuses because the transcript holds a
 credential, say which kind it named, let them decide what to remove, and try again. Never
 quietly edit the transcript yourself.
 
